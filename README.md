@@ -64,14 +64,16 @@ npm run dev
 
 ## 项目结构
 
-```
-.
-├── index.html      # HTML 入口文件
-├── main.js         # 游戏主逻辑
-├── package.json    # 项目配置
-└── README.md       # 项目说明
-```
-
+你的项目根目录/
+├── images/                 
+├── node_modules/           # 项目依赖包（由 npm 安装）
+├── AGENTS.md               # 说明文档（可能关于项目中的代理、智能体等）
+├── image.png               # 根目录下的一个图片文件
+├── index.html              # 项目入口 HTML 文件
+├── main.js                 # 主要的 JavaScript 脚本文件
+├── package-lock.json       # npm 依赖版本锁定文件
+├── package.json            # 项目配置文件（包含依赖、脚本命令等）
+└── README.md               # 项目说明文档（你正在编辑的文件）
 ## 开发提示
 
 - 飞船初始位置在 (0, 0, 200)
