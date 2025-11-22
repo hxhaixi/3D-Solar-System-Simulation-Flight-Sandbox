@@ -76,6 +76,3 @@ npm run dev
 - 可以通过修改 `Spaceship` 类的参数调整飞船性能
 
 祝你飞行愉快！
-
-
-[def]: image.png
